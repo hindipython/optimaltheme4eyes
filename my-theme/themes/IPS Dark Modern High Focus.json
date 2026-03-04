@@ -1,0 +1,139 @@
+{
+  "name": "IPS Optimal 2026",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#141414",
+    "editor.foreground": "#CCCCCC",
+    "editor.lineHighlightBackground": "#1a1a1a",
+    "editor.selectionBackground": "#2A2A2A",
+    "editor.findMatchBackground": "#4A3F2A",
+    "editor.findMatchHighlightBackground": "#3A3020",
+    "editorCursor.foreground": "#CCCCCC",
+    "editorLineNumber.foreground": "#3a3a3a",
+    "editorLineNumber.activeForeground": "#777777",
+    "editorIndentGuide.background": "#1e1e1e",
+    "editorIndentGuide.activeBackground": "#2e2e2e",
+    "sideBar.background": "#111111",
+    "sideBar.foreground": "#AAAAAA",
+    "sideBarTitle.foreground": "#CCCCCC",
+    "activityBar.background": "#0D0D0D",
+    "activityBar.foreground": "#CCCCCC",
+    "activityBar.inactiveForeground": "#555555",
+    "statusBar.background": "#0D0D0D",
+    "statusBar.foreground": "#888888",
+    "titleBar.activeBackground": "#111111",
+    "titleBar.activeForeground": "#CCCCCC",
+    "tab.activeBackground": "#141414",
+    "tab.activeForeground": "#CCCCCC",
+    "tab.inactiveBackground": "#111111",
+    "tab.inactiveForeground": "#555555",
+    "tab.activeBorderTop": "#4A5F3C",
+    "panel.background": "#121212",
+    "terminal.background": "#141414",
+    "terminal.foreground": "#CCCCCC",
+    "list.activeSelectionBackground": "#2A2A2A",
+    "list.hoverBackground": "#1e1e1e"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments — muted gray-blue, not green",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": { "foreground": "#6A737D", "fontStyle": "italic" }
+    },
+    {
+      "name": "Keywords — soft purple",
+      "scope": ["keyword", "keyword.control", "storage.modifier"],
+      "settings": { "foreground": "#C586C0" }
+    },
+    {
+      "name": "Storage types",
+      "scope": ["storage.type"],
+      "settings": { "foreground": "#C586C0" }
+    },
+    {
+      "name": "Operators",
+      "scope": ["keyword.operator"],
+      "settings": { "foreground": "#AAAAAA" }
+    },
+    {
+      "name": "Strings — olive green, easy on retina",
+      "scope": ["string", "string.quoted", "string.template"],
+      "settings": { "foreground": "#98C379" }
+    },
+    {
+      "name": "Regexp",
+      "scope": ["string.regexp"],
+      "settings": { "foreground": "#7EB57E", "fontStyle": "italic" }
+    },
+    {
+      "name": "Numbers — warm terracotta accent",
+      "scope": ["constant.numeric"],
+      "settings": { "foreground": "#E2725B" }
+    },
+    {
+      "name": "Constants",
+      "scope": ["constant.language"],
+      "settings": { "foreground": "#C586C0", "fontStyle": "italic" }
+    },
+    {
+      "name": "Functions — mint accent",
+      "scope": ["entity.name.function", "meta.function-call.generic"],
+      "settings": { "foreground": "#98C8A8" }
+    },
+    {
+      "name": "Classes and Types",
+      "scope": ["entity.name.class", "entity.name.type"],
+      "settings": { "foreground": "#9ABFBF" }
+    },
+    {
+      "name": "Tags",
+      "scope": ["entity.name.tag"],
+      "settings": { "foreground": "#C586C0" }
+    },
+    {
+      "name": "Attributes",
+      "scope": ["entity.other.attribute-name"],
+      "settings": { "foreground": "#98C379" }
+    },
+    {
+      "name": "Variables — soft white",
+      "scope": ["variable", "variable.other"],
+      "settings": { "foreground": "#CCCCCC" }
+    },
+    {
+      "name": "Language variables",
+      "scope": ["variable.language"],
+      "settings": { "foreground": "#C586C0", "fontStyle": "italic" }
+    },
+    {
+      "name": "Parameters — warm olive",
+      "scope": ["variable.parameter"],
+      "settings": { "foreground": "#B5A07A" }
+    },
+    {
+      "name": "Support functions",
+      "scope": ["support.function"],
+      "settings": { "foreground": "#98C8A8" }
+    },
+    {
+      "name": "Support types",
+      "scope": ["support.type", "support.class"],
+      "settings": { "foreground": "#9ABFBF" }
+    },
+    {
+      "name": "Support constants",
+      "scope": ["support.constant"],
+      "settings": { "foreground": "#E2725B" }
+    },
+    {
+      "name": "Punctuation — subdued",
+      "scope": ["punctuation"],
+      "settings": { "foreground": "#555555" }
+    },
+    {
+      "name": "Import/export keywords",
+      "scope": ["keyword.control.import", "keyword.control.from", "keyword.control.export"],
+      "settings": { "foreground": "#C586C0" }
+    }
+  ]
+}

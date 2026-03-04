@@ -1,0 +1,13 @@
+{
+  "name": "hindipython",
+  "displayName": "hindipython",
+  "version": "1.0.0",
+  "engines": {"vscode": "^1.0.0"},
+  "contributes": {
+    "themes": [{
+      "label": "IPS Dark Modern — High Focus",
+      "uiTheme": "vs-dark",
+      "path": "./themes/IPS Dark Modern High Focus.json"
+    }]
+  }
+}

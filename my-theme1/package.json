@@ -1,0 +1,33 @@
+{
+  "name": "antigravity-ips-optimized",
+  "displayName": "Antigravity IPS Optimized",
+  "description": "Оптимизированная тёмная тема для IPS-мониторов 1440p. Разработана для минимизации IPS Glow и снижения зрительной усталости при длительной работе в агентных IDE.",
+  "version": "1.0.0",
+  "publisher": "hindipython",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "ips",
+    "ergonomic",
+    "antigravity",
+    "eye-strain",
+    "1440p"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Antigravity IPS Optimized",
+        "uiTheme": "vs-dark",
+        "path": "./themes/antigravity-ips-color-theme.json"
+      }
+    ]
+  }
+}
